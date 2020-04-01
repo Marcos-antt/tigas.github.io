@@ -1,0 +1,43 @@
+h1{
+	font-family: Arial; 
+	color: #696969;
+	font-size: 40px;
+}
+
+body{
+	background: url("../img/fundo5.jpg") left top;
+	
+}
+
+dt{
+	color: white;
+	font-size: 20px;
+}
+
+.rodape1{
+	clear: both;
+    padding: 28px;
+    color: rgb(250,255,250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+    border-radius: 30px;
+}
+
+.icones li{
+	display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+
+.imgcss{
+	width:241px;
+	height:300px;
+	border:5px solid #999;
+	background:transparent url(/perfilfoto.jpg);
+}
+
+h2{
+	text-align: left !important;
+	font-size: 15px;
+}
