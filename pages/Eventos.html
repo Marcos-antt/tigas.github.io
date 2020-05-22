@@ -4,10 +4,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../css/style.css?s=1">
-    <script>
-        src = "slide.js"
-    </script>
-
+    <link rel="stylesheet" href="../css/styleslide.css">
 
     <title>Coffee Code</title>
 </head>
@@ -15,32 +12,29 @@
 <body>
 
     <!-- menu -->
-    <section>
-        <div class="camadatop">
-            <div class="menu">
-                <ul>
-                    <li class="logomenu">
-                        <span class="titulo">
+    <div class="camadatop">
+        <div class="menu">
+            <ul>
+                <div class="logomenu">
+                    <span class="titulo">
                             COFFE CODE <img  src="../img/cafe.png" width="60px">
                         </span>
-                    </li>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../pages/Cardapio.html">Cardápio</a></li>
                     <li><a href="../pages/Eventos.html">Eventos</a></li>
                     <li><a href="../pages/Contato.html">Contato</a></li>
-                    </li>
-                </ul>
-            </div>
+                </div>
+            </ul>
         </div>
-    </section>
+    </div>
     <!-- fim do menu -->
     <main>
         <div class="contanier1">
             <h2>Eventos</h2>
-            <p>
+            <span class="p">
                 A COFFECODE realiza eventos na sua empresa. Serviços de coffee break, café da manhã, brunch, coquetel... Seja qual for o formato elaboramos seus eventos customizados na sua casa ou empresa. Contamos com equipamentos audiovisuais próprios como projetor,
                 sonorização, flip chart e etc. Abaixo alguns dos clientes já atendidos pelo Café com Leite.
-            </p>
+            </span>
         </div>
 
 
@@ -48,34 +42,44 @@
 
 
             <h2>Nossos Clientes</h2>
-
-            <div class="Slides">
-                <ul>
-                    <li> <img src="../img/slide1.png" alt="Primeira Imagem"></li>
-                    <li> <img src="../img/slide2.png" alt="Segunda Imagem"></li>
-                    <li> <img src="../img/slide3.png" alt="Terceira Imagem"></li>
-                    <li> <img src="../img/slide4.png" alt="Quarta Imagem"></li>
-                    <li> <img src="../img/slide5.png" alt="Quinta Imagem"></li>
-                </ul>
+            <div class="container">
+                <div class="wrap">
+                    <div id="arrow-left" class="arrow"></div>
+                    <div id="arrow-right" class="arrow"></div>
+                    <div id="slider">
+                        <div class="slide slide1">
+                            <div class="slide-content">
+                            </div>
+                        </div>
+                        <div class="slide slide2">
+                            <div class="slide-content">
+                            </div>
+                        </div>
+                        <div class="slide slide3">
+                            <div class="slide-content">
+                            </div>
+                        </div>
+                        <div class="slide slide4">
+                            <div class="slide-content">
+                            </div>
+                        </div>
+                        <div class="slide slide5">
+                            <div class="slide-content">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div>
-
-
-
-            </div>
+        </div>
+        <script src="../js/slide.js"></script>
     </main>
-
     <footer class="rodape">
         <div class="contanier">
-            <span class="rodapetxt">
-                Desenvolvido por Marcos Antônio Todos os direitos reservados - 2020
+            <span class="rodapetxt">Desenvolvido por Marcos Antônio Todos os direitos reservados - 2020
             </span>
+        </div>
         </div>
     </footer>
 </body>
-
-
-</div>
 
 </html>
